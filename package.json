@@ -1,0 +1,46 @@
+{
+  "name": "dom-keys-mixin",
+  "description": "A mixin for key input properties",
+  "keywords": [
+    "DOM",
+    "keys",
+    "mixin",
+    "input"
+  ],
+  "version": "1.0.0",
+  "scripts": {
+    "build": "ebam",
+    "test": "echo \"no test\""
+  },
+  "license": "MIT",
+  "ebam": {
+    "entry": "src/index.js",
+    "transforms": {
+      "dangerousForOf": false,
+      "dangerousTaggedTemplateString": false
+    },
+    "test": {
+      "dest": "test/code.js",
+      "src": "test/src.js"
+    }
+  },
+  "author": "Quentin Engles <hollowdoor99@gmail.com> (https://hollowdoor.github.io)",
+  "dependencies": {
+    "raw-object": "^1.0.0"
+  },
+  "main": "dist/bundle.js",
+  "jsnext:main": "dist/bundle.es.js",
+  "module": "dist/bundle.es.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hollowdoor/dom_keys_mixin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hollowdoor/dom_keys_mixin/issues"
+  },
+  "homepage": "https://github.com/hollowdoor/dom_keys_mixin#readme"
+}
